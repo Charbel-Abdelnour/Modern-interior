@@ -145,7 +145,7 @@ nav a:hover:before{
   z-index: -1;
 }
 .box3{
-  position: fixed;
+  position: absolute;
   padding-bottom: 10px;
   border: 2px solid rgb(115, 255, 0);
   max-width: 25.625rem;
@@ -200,6 +200,11 @@ border-style: hidden;
     color: #FFFFFF;
     padding-left: 25px;
 }
+footer{
+  margin-top: 100px ;
+  text-align: center;
+  color: #BDBDBD;
+}
 @media (max-width: 850px){
   .checkbtn{
     display: block;
@@ -222,6 +227,7 @@ border-style: hidden;
     left: -100%;
     text-align: center;
     transition: all .7s;
+    z-index: 4;
    }
    #check:checked ~ ul{
     left: 0;
