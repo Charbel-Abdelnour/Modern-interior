@@ -216,6 +216,7 @@ footer{
   nav .logo{
     font-size: 14px;
     float: left;
+    margin-left: -80px;
 
   }
   ul{
